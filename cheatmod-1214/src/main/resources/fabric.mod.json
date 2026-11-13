@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatmod",
+  "version": "${version}",
+  "name": "CheatMod",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.cheat.CheatClient"] },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
